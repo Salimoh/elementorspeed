@@ -21,4 +21,4 @@ function remove_default_stylesheet() {
 
 
 
-#another trick is to unload elementor icons css file with asset clean up
+# another trick is to unload elementor icons css file with asset clean up
