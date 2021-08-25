@@ -6,6 +6,7 @@ add this code to function.php
 
  //eicon remove
 // Deactivate Eicons at Elementor
+
 add_action( 'wp_enqueue_scripts', 'remove_default_stylesheet', 20 );
 function remove_default_stylesheet() {
   
@@ -20,4 +21,4 @@ function remove_default_stylesheet() {
 
 
 
-another trick is to unload elementor icons css file with asset clean up
+#another trick is to unload elementor icons css file with asset clean up
